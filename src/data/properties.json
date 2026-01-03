@@ -1,0 +1,194 @@
+{
+	"properties": [
+        {
+            "id":"prop1",
+			"type":"House",
+            "bedrooms":3,
+			"price":750000,
+			"tenure":"Freehold",
+			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
+            "PostCode":"BR5",
+			"picture":[
+                "/Images/image1_1.webp",
+                "/Images/image1_2.jpg",
+                "/Images/image1.3.jpg",
+                "/Images/image1.4.jpg",
+                "/Images/image1.5.jpg",
+                "/Images/image1.6.jpg"
+            ],
+			"url":"properties/prop1.html",
+            "added": {
+                "month":"October",
+                "day":12,
+                "year":2022
+            }
+        },
+		{
+            "id":"prop2",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":399995,
+			"tenure":"Freehold",
+			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat.<br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+			"location":"Crofton Road Orpington BR6",
+            "PostCode":"BR6",
+			"picture":[
+                "/Images/image2_1.jpg",
+                "/Images/image2_2.jpg",
+                "/Images/image2.3.jpg",
+                "/Images/image2.4.jpg",
+                "/Images/image2.5.jpg"
+            ],
+			"url":"properties/prop2.html",
+            "added": {
+                "month":"September",
+                "day":14,
+                "year":2022
+            }
+        },
+        {
+            "id":"prop3",
+			"type":"House",
+            "bedrooms":3,
+			"price":450095,
+			"tenure":"Freehold",
+			"description":"Spacious 3 bedroom detached house located in quite residental road.The property features a large open-plan kitchen and dining area, two reception rooms, a utility room, and a landscaped rerr garden. Upstairs offers 3 bedrooms including a master with en-suite, plus a modern family bathroom ",
+			"location":"Elm Road,Bromley BR1",
+            "PostCode":"BR1",
+			"picture":[
+                 "/Images/image3_1.jpeg",
+                "/Images/image3_2.jpg",
+                "/Images/image3.3.jpg",
+                "/Images/image3.4.jpg",
+                "/Images/image3.5.jpg"
+            ],
+			"url":"properties/prop2.html",
+            "added": {
+                "month":"March",
+                "day":20,
+                "year":2020
+            }  
+            
+        },
+        {
+            "id":"prop4",
+			"type":"Flat",
+            "bedrooms":1,
+			"price":295095,
+			"tenure":"Leashold",
+			"description":"Modern one bedroom apartment ideal for first-time buyers or investors. Located close to transport links, this property offers an oprn-plan living area, fitted kitchen, double bedroom, and a contemporary bathroom, and a contemporary bathroom. Secure entry system and allocated parking included ",
+			"location":"High Street, Croydon CRO",
+            "PostCode":"CRO",
+			"picture":[
+                 "/Images/image4_1.jpg",
+                "/Images/image4_2.jpg",
+                "/Images/image4.3.jpg",
+                "/Images/image4.4.jpg",
+                "/Images/image4.5.jpg"
+            ],
+			"url":"properties/prop2.html",
+            "added": {
+                "month":"January",
+                "day":21,
+                "year":2024
+            }  
+        },
+        {
+            "id":"prop5",
+			"type":"House",
+            "bedrooms":2,
+			"price":450095,
+			"tenure":"Freehold",
+			"description":"Charming two bedroom terraced house situted within walking distance of local shops and schools. Features include a bright living room, modern kitchen, private rear garden, and two well-sized bedrooms upstairs with a family bathroom",
+			"location":"Station Road, Sidcup DA15",
+            "PostCode":"DA15",
+			"picture":[
+                "/Images/image5_1.jpg",
+                "/Images/image5_2.jpg",
+                "/Images/image5.3.jpg",
+                "/Images/image5.4.jpg",
+                "/Images/image5.5.jpg",
+                "/Images/image5.6.jpg"
+            ],
+			"url":"properties/prop2.html",
+            "added": {
+                "month":"June",
+                "day":5,
+                "year":2022
+            }  
+        },
+        {
+            "id":"prop6",
+			"type":"Flat",
+            "bedrooms":3,
+			"price":650095,
+			"tenure":"Leashold",
+			"description":"Luxury three bedroom penthouse apartment offering panoramic city views. The property benefits from a large balcony, high-spec kitchen appliances, two bathrooms, and floor-to-ceiling windows throughout. Concierge service available",
+			"location":"Canary Wharf, London E14",
+            "PostCode":"E14",
+			"picture":[
+                "/Images/image6.1.webp",
+                "/Images/image6.2.jpg",
+                "/Images/image6.3.jpg",
+                "/Images/image6.4.webp",
+                "/Images/image6.5.jpg",
+                "/Images/image6.6.jpg"
+            ],
+			"url":"properties/prop2.html",
+            "added": {
+                "month":"November",
+                "day":6,
+                "year":2023
+            }  
+        },
+        {
+            "id":"prop7",
+			"type":"House",
+            "bedrooms":5,
+			"price":1200000,
+			"tenure":"Freehold",
+			"description":"Impressive five bedroom family home set over three floors. The property includes a large kitchen diner, cinema room, study, and landscaped garden. Excellent access to top-rated schools and green spaces makes this an ideal long-term family home",
+			"location":"Manor Way,Chislehurst BR7",
+            "PostCode":"BR7",
+			"picture":[
+                "/Images/image7.1.jpg",
+                "/Images/image7.2.jpg",
+                "/Images/image7.3.jpg",
+                "/Images/image7.4.jpg",
+                "/Images/image7.5.jpg",
+                "/Images/image7.6.jpg"
+            ],
+			"url":"properties/prop2.html",
+            "added": {
+                "month":"September",
+                "day":6,
+                "year":2022
+            } 
+        },
+        {
+             "id":"prop8",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":470000,
+			"tenure":"Leashold",
+			"description":"Well-presented two bedroom apartment located in a modern development. Features include an open-plan kitchen and living space, two double bedrooms, balcony access, and excellent transport links into Central London",
+			"location":"Lewisham Road, London SE13",
+            "PostCode":"SE13",
+			"picture":[
+                "/Images/image8.1.webp",
+                "/Images/image8.2.jpg",
+                "/Images/image8.3.jpg",
+                "/Images/image8.4.jpg",
+                "/Images/image8.5.jpg",
+                "/Images/image8.6.jpg"
+            ],
+			"url":"properties/prop2.html",
+            "added": {
+                "month":"April",
+                "day":16,
+                "year":2021
+            } 
+        }      
+    ]
+}
