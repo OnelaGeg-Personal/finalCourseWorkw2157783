@@ -1,4 +1,4 @@
-import { expect } from "vitest";
+import { test,expect } from "vitest";
 
 test('adds property to favourites', () => {
     const favourites =[];

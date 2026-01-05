@@ -4,8 +4,8 @@ export const filterProperties = (properties, filters) =>{
         !filters.type||filters.type == "Any" || property.type == filters.type;
 
         const matchesPrice =
-        (!filter.minPrice || property.price >= filters.minPrice) && 
-        (!filter.maxPrice || property.price <= filters.maxPrice);
+        (!filters.minPrice || property.price >= filters.minPrice) && 
+        (!filters.maxPrice || property.price <= filters.maxPrice);
 
         const matchesBedrooms =
         (!filters.minBedrooms || property.bedrooms >= filters.minBedrooms) &&

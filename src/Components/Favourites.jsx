@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Favourites = ({favourites, removeFavourite}) => {
     return(
         <aside>

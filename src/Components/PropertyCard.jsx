@@ -1,10 +1,14 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
+
 const  PropertyCard =({property, addFavourite}) => {
+    console.log(property.images);
+    const thumbnail =property.picture[0]
     return(
         <div className="property-card">
-            <img src={property.picture} alt={property.type} />
+            <img src={thumbnail} alt={`${property.type} thumbnail`} />
+            
 
             <h3>£{property.price.toLocaleString()}</h3>
             <p>{property.bedrooms} bedroom {property.type}</p>

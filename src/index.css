@@ -3,9 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(35, 83, 165, 0.87);
+  background-color: #f0b3b3;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,8 +23,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -42,7 +39,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #f4fa8e;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -54,6 +51,62 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/*--CSS that i used----*/
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.main-content {
+  flex: 3;
+}
+
+.favourites {
+  flex: 1;
+  border-left: 2px solid #ed81df;
+  padding-left: 15px;
+}
+
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.tab-button{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  color: #ed81df;
+}
+
+.property-card {
+  background: #b3d0f2;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.property-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.property-page-image {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.property-page-image img {
+  width:100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgb(red, green, blue);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -63,6 +116,24 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #d87dd5;
   }
 }
+
+/*smaller screen layout */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .property-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .favourites {
+    border-left: none;
+    border-top: 2px solid #ccc;
+    padding-top: 15px;
+  }
+}
+

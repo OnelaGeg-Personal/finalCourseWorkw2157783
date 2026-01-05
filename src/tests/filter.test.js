@@ -1,6 +1,5 @@
 import { filterProperties } from "../utils/filterProperties";
-import { type } from "os";
-import { expect } from "vitest";
+import { test,expect } from "vitest";
 
 const mockProperties =[
     {
@@ -28,18 +27,18 @@ const mockProperties =[
 test('filter by property type', () => {
     const result = filterProperties(mockProperties, {type:'House'});
     expect(result.length).toBe(1);
-    expect(result[0].price).toBe('House');
+    expect(result[0].type).toBe('House');
 });
 
 test('filters by minimum price', () => {
     const result =filterProperties(mockProperties, {minPrice:500000});
-    expect(result.lenght).toBe();
+    expect(result.length).toBe(1);
     expect(result[0].price).toBeGreaterThanOrEqual(500000);
 });
 
 test('filters by multiple criteria', () => {
     const result = filterProperties(mockProperties, {type:'House', minPrice:700000});
-    expect(result.lenght).toBe(1);
+    expect(result.length).toBe(1);
     expect(result[0].id).toBe('prop1');
 });
 
