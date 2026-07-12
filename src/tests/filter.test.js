@@ -42,3 +42,17 @@ test('filters by multiple criteria', () => {
     expect(result[0].id).toBe('prop1');
 });
 
+test('filters by date added after a given date', () => {
+    const result = filterProperties(mockProperties, { startDate: '2022-12-01' });
+    expect(result.length).toBe(1);
+    expect(result[0].id).toBe('prop2');
+});
+
+test('filters by date added between two given dates', () => {
+    const result = filterProperties(mockProperties, {
+        startDate: '2022-01-01',
+        endDate: '2022-12-31',
+    });
+    expect(result.length).toBe(1);
+    expect(result[0].id).toBe('prop1');
+});

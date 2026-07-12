@@ -87,6 +87,40 @@ button:focus-visible {
   border-radius: 10px;
 }
 
+
+.property-card:active {
+  cursor: grabbing;
+}
+
+.favourites-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.clear-favourites-btn {
+  background-color: #e57373;
+  font-size: 0.85em;
+  padding: 0.3em 0.8em;
+}
+
+.favourites-empty-hint {
+  font-size: 0.85em;
+  color: #666;
+  font-style: italic;
+}
+
+.favourite-item {
+  cursor: grab;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.favourite-item:active {
+  cursor: grabbing;
+}
+
 .property-card img {
   width: 100%;
   border-radius: 8px;
@@ -106,6 +140,28 @@ button:focus-visible {
   object-fit: cover;
   box-shadow: 0 2px 8px rgb(red, green, blue);
 }
+
+.Search-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px 20px;
+  align-items: end;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ed81df;
+}
+
+.Search-form label {
+  font-weight: 600;
+  font-size: 0.85em;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
