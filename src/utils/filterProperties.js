@@ -16,7 +16,7 @@ export const filterProperties = (properties, filters) =>{
         property.location.toLowerCase().includes(filters.postcode.toLowerCase());
 
         const propertyDate = new Date(
-            property.added.month, property.added.day, property.added.year
+            property.added.year, property.added.monthIndex, property.added.day
         );
         const matchesDate =
         !filters.startDate ||

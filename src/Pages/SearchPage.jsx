@@ -18,7 +18,7 @@ const SearchPage = () =>{
     };
 
     const removeFavourite = (id) => {
-        setFavourites(favourites.filter(() => f.id !== id));
+        setFavourites(favourites.filter((f) => f.id !== id));
     };
 
     const filtered = filterProperties(data.properties, filters);
