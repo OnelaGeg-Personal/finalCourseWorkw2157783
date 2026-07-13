@@ -1,5 +1,5 @@
 import { filterProperties } from "../utils/filterProperties";
-import { test,expect } from "vitest";
+import { test,expect } from "@jest/globals";
 
 const mockProperties =[
     {

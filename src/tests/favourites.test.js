@@ -1,4 +1,4 @@
-import { test,expect } from "vitest";
+import { test,expect } from "@jest/globals";
 
 test('adds property to favourites', () => {
     const favourites =[];
