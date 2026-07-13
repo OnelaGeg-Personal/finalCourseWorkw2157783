@@ -16,7 +16,7 @@ const  PropertyCard =({property, addFavourite}) => {
     return(
         <div className="property-card"  draggable
             onDragStart={handleDragStart}>
-            <img src={thumbnail} alt={`${property.type} thumbnail`} />
+            <img src={thumbnail} alt={`${property.type} thumbnail`}  draggable={false} />
             
 
             <h3>£{property.price.toLocaleString()}</h3>
@@ -27,7 +27,7 @@ const  PropertyCard =({property, addFavourite}) => {
                 ❤️ Add to Favourites
             </button>
 
-            <Link to={`/property/${property.id}`}>View Details</Link>
+            <Link to={`/property/${property.id}`}  draggable={false}>View Details</Link>
         </div>
     );
 };
