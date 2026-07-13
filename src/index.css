@@ -85,6 +85,7 @@ button:focus-visible {
   background: #b3d0f2;
   padding: 15px;
   border-radius: 10px;
+  user-select: none;
 }
 
 
